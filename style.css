@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+:root {
+    --color-pastel-blue-bg: #90dad984;
+    --color-pastel-green: #56ed8d;
+    --color-pastel-blue: #75dddc;
+    --color-pastel-orange: #f0c17e;
+    --color-pastel-pink: #f49a97;
+    --color-pastel-lilac: #ea70e2;
+    --color-pastel-purple: #8984f2;
+}
+
+* {
+    margin: 0 auto;
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    background-color: var(--color-pastel-blue-bg);
+}
+
+/*reutilizada em: header, article, section*/
+.container {
+    width: 80%;
+}
+
+h1, h2 {
+    margin-bottom: 1em;
+}
+.welcome-header {
+    
+    margin-bottom: 1em;
+    padding: 3em;
+    text-align: center;
+    font-size: 2em;
+}
+
+/*coloring welcome letters*/
+.color-1 {
+    color: var(--color-pastel-green);
+}
+.color-2 {
+    color: var(--color-pastel-orange);
+}
+.color-3 {
+    color: var(--color-pastel-purple);
+}
+.color-4 {
+    color: var(--color-pastel-pink);
+}
+.color-5 {
+    color: var(--color-pastel-lilac);
+}
